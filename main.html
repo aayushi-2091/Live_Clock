@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="clock-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    CLOCK
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Servies</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+          <p id="tc">Be in pace with TIME.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+         <cite title="Source Title">Aayushi Ghosh</cite>
+        </figcaption>
+      </figure>
+      <main>
+        <div class="clock-container">
+            <div class="clock-col">
+              <p class="clock-day clock-timer">
+              </p>
+              <p class="clock-label" id="day">
+                Day
+              </p>
+            </div>
+            <div class="clock-col">
+              <p class="clock-hours clock-timer">
+              </p>
+              <p class="clock-label" id="hour">
+                Hours
+              </p>
+            </div>
+            <div class="clock-col">
+              <p class="clock-minutes clock-timer">
+              </p>
+              <p class="clock-label" id="min">
+                Minutes
+              </p>
+            </div>
+            <div class="clock-col">
+              <p class="clock-seconds clock-timer">
+              </p>
+              <p class="clock-label" id="sec">
+                Seconds
+              </p>
+            </div>
+          </div>
+      </main>
+      <script src="index.js"></script>
+</body>
+</html>
+
+
